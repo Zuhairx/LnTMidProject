@@ -340,7 +340,7 @@ public class PTmusang {
 		}else {
 			do {
 				view();
-				System.out.println("input nomor urutan karyawan yang ingin dihapus: ");
+				System.out.print("input nomor urutan karyawan yang ingin dihapus: ");
 				delete = sc.nextInt();
 			}while(delete <0 || delete > data.size());
 			if(delete <= data.size() && delete != 0) {
@@ -367,7 +367,6 @@ public class PTmusang {
 			sc.nextLine();
 			sc.nextLine();
 		}
-
 	}
 	public static void main(String[] args) {
 		PTmusang main = new PTmusang();
