@@ -261,10 +261,6 @@ public class PTmusang {
 			if(update <= data.size() && update != 0) {
 				update-=1;
 				do {
-					System.out.print("input kode karyawan [MM-XXXX] : ");
-					kodeKaryawan = sc.nextLine();
-				}while(!(kodeKaryawan.matches(kode)));
-				do {
 					System.out.print("input nama karyawan [>= 3 ] : ");
 					namakaryawan = sc.nextLine();
 				}while(!(namakaryawan.length() >= 3));
@@ -373,13 +369,8 @@ public class PTmusang {
 		}
 
 	}
-
-
-
 	public static void main(String[] args) {
 		PTmusang main = new PTmusang();
 		main.run();
-
 	}
-
 }
