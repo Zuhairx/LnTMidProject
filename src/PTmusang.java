@@ -346,7 +346,7 @@ public class PTmusang {
 			if(delete <= data.size() && delete != 0) {
 				delete-=1;
 				for(int i = delete ; i <= data.size(); i++) {
-					System.out.println("berhasil menghapus karyawan dengan id " + data.get(delete).listkodekaryawan);
+					System.out.println("Karyawan dengan kode " + data.get(delete).listkodekaryawan + " berhasil dihapus");
 					if(data.get(delete).listjabatankaryawan.equals("Manager")) {
 						jumlahmanager--;
 						data.remove(delete);
