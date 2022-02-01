@@ -1,5 +1,4 @@
 
-
 public class data_PTMusang {
 	String listkodekaryawan = "";
 	String listnamakaryawan = "";
@@ -45,8 +44,3 @@ public class data_PTMusang {
 	public void setGaji(int gajikaryawan) {
 		this.listgajikaryawan = gajikaryawan;
 	}
-	public static void main(String[] args) {
-
-	}
-}
-
