@@ -110,7 +110,6 @@ public class PTmusang {
 		if(jumlahadmin > 3 && jumlahadmin % 3 == 1) {
 			perubahangajiadmin();
 		}
-		System.out.println("manager : " + jumlahmanager + "Supervisor : " + jumlahsupervisor + "Admin : " + jumlahadmin);
 		System.out.println("berhasil menambahkan karyawn dengan id " + d.listkodekaryawan);
 		System.out.println("Enter to return");
 		sc.nextLine();
@@ -235,13 +234,13 @@ public class PTmusang {
 		}
 		else {
 			sortascending();
-			System.out.println("===============================================================================");
-			System.out.printf("| %1s |%1s| %-20s |   %1s   |   %1s  |   %1s   |\n","No.", "Kode Karyawan", "Nama","Gender","jabatan","gaji");
-			System.out.println("===============================================================================");
+			System.out.println("================================================================================");
+			System.out.printf("| %1s|%1s| %-20s |   %1s   |   %1s  |   %1s   |\n","No.", "Kode Karyawan", "Nama","Gender","jabatan","gaji");
+			System.out.println("================================================================================");
 			for (int i = 0; i< data.size(); i++) {
 				System.out.printf("| %2s |%-13S|%-22s| %-10s | %-10s | %-9d|\n",i+1, data.get(i).listkodekaryawan,data.get(i).listnamakaryawan,
 						data.get(i).listgenderkaryawan,data.get(i).listjabatankaryawan,data.get(i).listgajikaryawan);
-			}System.out.println("===============================================================================");	
+			}System.out.println("================================================================================");	
 		}
 	}
 
